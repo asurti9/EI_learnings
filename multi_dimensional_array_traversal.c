@@ -107,6 +107,7 @@ void main()
 
 			default:
 				printf("Not valid random number.\n");
+				break;
 
 		}
 		if(a == tmp_char)
