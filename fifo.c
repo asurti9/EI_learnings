@@ -11,7 +11,7 @@ void main()
 	char readBuff[20];
 	while(1)
 	{
-		fd = open("FIFO_file",O_WRONLY);
+		fd = open("FIFO_file",O_RDONLY);
 		read(fd,readBuff,20);
 		printf("%s\n",readBuff);
 		close(fd);
